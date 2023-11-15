@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Roboto";
+    src: url(fonts/Roboto_Condensed/);
+}
+body{
+    height: 100vh;
+    background-color: #090c21;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main{
+    background-color: white;
+    padding:80px 70px 80px 70px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+.sign-buttons{
+    display: flex;
+}
+.sign-buttons-piece{
+    width: 230px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+font-size: 30px;
+}
+.dark{
+    height: 82px;
+  background-color: #090c21;
+  color: white;
+  border-color: white;  
+}
+.light{
+    background-color:white;
+    color: #090c21;
+    border-color:#090c21;  
+    border: solid 1px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 42px;
+  }
+  input{
+    width: 460px;
+    height: 60px;
+    padding-left: 10px;
+    font-size: 24px;
+    color: #090c21;
+
+  }
+
+input::placeholder{
+   color: #3e4054;
+   font-size: 24px; 
+}
+button{
+    background-color: #090c21;
+    color: white;
+    width: 460px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    border-radius:100PX ;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+@media (min-width:480px) and (max-width:1280px){
+    main{
+        background-color: white;
+        padding:6.25vw 6.46vw 6.25vw 5.46vw ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3.9vw;
+    }
+    .sign-buttons{
+        display: flex;
+    }
+    .sign-buttons-piece{
+        width: 18vw;
+        height: 6.25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    font-size: 2.3vw;
+    }
+    .dark{
+        height: 6.4vw;
+      background-color: #090c21;
+      color: white;
+      border-color: white;  
+    }
+    .light{
+        background-color:white;
+        color: #090c21;
+        border-color:#090c21;  
+        border: solid 1px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3.28vw;
+      }
+      input{
+        width: 36vw;
+        height: 2.3vw;
+        padding-left: 10px;
+        font-size: 1.87vw;
+        color: #090c21;
+    
+      }
+    
+    input::placeholder{
+       color: #3e4054;
+       font-size: 1.87vw; 
+    }
+    button{
+        background-color: #090c21;
+        color: white;
+        width: 36vw;
+        padding-top: 1.56vw;
+        padding-bottom: 1.56vw;
+        font-size: 2.3vw;
+        border-radius:100PX ;
+    }
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+}
